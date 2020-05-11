@@ -1,6 +1,6 @@
 package com.bard.tile38.command;
 
-import com.tile38.keys.Point;
+import com.bard.tile38.keys.Point;
 import io.lettuce.core.codec.RedisCodec;
 import io.lettuce.core.protocol.CommandArgs;
 

@@ -1,9 +1,9 @@
 package com.bard.tile38.keys;
 
-import com.tile38.enumeration.OperationEnum;
+import com.bard.tile38.enumeration.OperationEnum;
 import io.lettuce.core.protocol.CommandArgs;
 
-import static com.tile38.enumeration.OperationEnum.GREATER;
+import static com.bard.tile38.enumeration.OperationEnum.GREATER;
 
 public class WhereQueryField implements Param<String, String> {
     private String name;
